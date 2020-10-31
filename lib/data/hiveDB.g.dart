@@ -8,7 +8,7 @@ part of 'hiveDB.dart';
 
 class NoteTypeAdapter extends TypeAdapter<NoteType> {
   @override
-  final typeId = 1;
+  final int typeId = 1;
 
   @override
   NoteType read(BinaryReader reader) {
@@ -33,17 +33,27 @@ class NoteTypeAdapter extends TypeAdapter<NoteType> {
         break;
     }
   }
+
+  @override
+  int get hashCode => typeId.hashCode;
+
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is NoteTypeAdapter &&
+          runtimeType == other.runtimeType &&
+          typeId == other.typeId;
 }
 
 class NoteAdapter extends TypeAdapter<Note> {
   @override
-  final typeId = 0;
+  final int typeId = 0;
 
   @override
   Note read(BinaryReader reader) {
-    var numOfFields = reader.readByte();
-    var fields = <int, dynamic>{
-      for (var i = 0; i < numOfFields; i++) reader.readByte(): reader.read(),
+    final numOfFields = reader.readByte();
+    final fields = <int, dynamic>{
+      for (int i = 0; i < numOfFields; i++) reader.readByte(): reader.read(),
     };
     return Note(
       fields[0] as DateTime,
@@ -72,17 +82,27 @@ class NoteAdapter extends TypeAdapter<Note> {
       ..writeByte(5)
       ..write(obj.position);
   }
+
+  @override
+  int get hashCode => typeId.hashCode;
+
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is NoteAdapter &&
+          runtimeType == other.runtimeType &&
+          typeId == other.typeId;
 }
 
 class CheckListNoteAdapter extends TypeAdapter<CheckListNote> {
   @override
-  final typeId = 2;
+  final int typeId = 2;
 
   @override
   CheckListNote read(BinaryReader reader) {
-    var numOfFields = reader.readByte();
-    var fields = <int, dynamic>{
-      for (var i = 0; i < numOfFields; i++) reader.readByte(): reader.read(),
+    final numOfFields = reader.readByte();
+    final fields = <int, dynamic>{
+      for (int i = 0; i < numOfFields; i++) reader.readByte(): reader.read(),
     };
     return CheckListNote(
       fields[0] as String,
@@ -105,17 +125,27 @@ class CheckListNoteAdapter extends TypeAdapter<CheckListNote> {
       ..writeByte(3)
       ..write(obj.noteParent);
   }
+
+  @override
+  int get hashCode => typeId.hashCode;
+
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is CheckListNoteAdapter &&
+          runtimeType == other.runtimeType &&
+          typeId == other.typeId;
 }
 
 class TextNoteAdapter extends TypeAdapter<TextNote> {
   @override
-  final typeId = 3;
+  final int typeId = 3;
 
   @override
   TextNote read(BinaryReader reader) {
-    var numOfFields = reader.readByte();
-    var fields = <int, dynamic>{
-      for (var i = 0; i < numOfFields; i++) reader.readByte(): reader.read(),
+    final numOfFields = reader.readByte();
+    final fields = <int, dynamic>{
+      for (int i = 0; i < numOfFields; i++) reader.readByte(): reader.read(),
     };
     return TextNote(
       fields[0] as String,
@@ -132,4 +162,14 @@ class TextNoteAdapter extends TypeAdapter<TextNote> {
       ..writeByte(1)
       ..write(obj.noteParent);
   }
+
+  @override
+  int get hashCode => typeId.hashCode;
+
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is TextNoteAdapter &&
+          runtimeType == other.runtimeType &&
+          typeId == other.typeId;
 }
