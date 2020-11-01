@@ -14544,7 +14544,7 @@ o.t_(new D.y_(),q)
 p=t.qI
 o.t_(new D.CF(),p)
 s=2
-return P.a0(o.lx("FlutterNotesHiveDB",n),$async$x8)
+return P.a0(o.lx("Flutter Notes HiveDB",n),$async$x8)
 case 2:s=3
 return P.a0(o.lx("TextNotesItemsDB",p),$async$x8)
 case 3:s=4
@@ -53586,8 +53586,8 @@ var $async$hq=P.a1(function(b,c){if(b===1)return P.a3(c,r)
 while(true)switch(s){case 0:p=$.ck()
 o=t.C
 n=t.sD
-m=n.a(p.c0("FlutterNotesHiveDB",!1,o))
-o=n.a(p.c0("FlutterNotesHiveDB",!1,o))
+m=n.a(p.c0("Flutter Notes HiveDB",!1,o))
+o=n.a(p.c0("Flutter Notes HiveDB",!1,o))
 q=o.e.f0().m1(0,new X.KG(a))
 q.r=new P.bA(Date.now(),!1)
 s=2
@@ -53747,11 +53747,11 @@ glK:function(){return 3}}
 F.Ae.prototype={
 H:function(a,b){var s=null,r="Flutter Notes HiveDB",q=X.a77(C.J)
 return new S.r_(M.BT(E.xs(L.bS(r,s,s,s,s,s)),Q.l0(!0,this.Io(),C.a2,!0),this.Vi()),r,q,!1,s)},
-Io:function(){var s=t.sD.a($.ck().c0("FlutterNotesHiveDB",!1,t.C))
+Io:function(){var s=t.sD.a($.ck().c0("Flutter Notes HiveDB",!1,t.C))
 return new N.nU(new T.um(s,null,H.d([],t.k7)),new F.PB(this),null,t.cM)},
 jQ:function(a,b,c){var s=0,r=P.a6(t.z),q,p,o,n,m,l
 var $async$jQ=P.a1(function(d,e){if(d===1)return P.a3(e,r)
-while(true)switch(s){case 0:n=t.sD.a($.ck().c0("FlutterNotesHiveDB",!1,t.C))
+while(true)switch(s){case 0:n=t.sD.a($.ck().c0("Flutter Notes HiveDB",!1,t.C))
 m=t.z
 l=n.$ti.j("co.E*")
 s=a<b?2:4
@@ -53795,7 +53795,7 @@ F.PB.prototype={
 $3:function(a,b,c){var s,r,q,p,o,n,m,l=null
 if(J.eP(b.e.f0().a))return T.py(L.bS("No Notes!",l,l,l,l,l),l,l,l)
 s=this.a
-r=t.sD.a($.ck().c0("FlutterNotesHiveDB",!1,t.C))
+r=t.sD.a($.ck().c0("Flutter Notes HiveDB",!1,t.C))
 r=r.e.f0()
 q=s.Ip(P.ag(r,!0,H.H(r).j("m.E")))
 r=H.d([],t.fQ)
@@ -53859,7 +53859,7 @@ var $async$nb=P.a1(function(b,c){if(b===1)return P.a3(c,r)
 while(true)switch(s){case 0:s=q.c.gau().oh()?2:3
 break
 case 2:p=$.ck()
-o=t.sD.a(p.c0("FlutterNotesHiveDB",!1,t.C))
+o=t.sD.a(p.c0("Flutter Notes HiveDB",!1,t.C))
 q.HA(o)
 n=t.nf
 m=t.e
@@ -53877,7 +53877,7 @@ var $async$na=P.a1(function(b,c){if(b===1)return P.a3(c,r)
 while(true)switch(s){case 0:s=q.c.gau().oh()?2:3
 break
 case 2:p=$.ck()
-o=t.sD.a(p.c0("FlutterNotesHiveDB",!1,t.C))
+o=t.sD.a(p.c0("Flutter Notes HiveDB",!1,t.C))
 q.HA(o)
 n=t.nf
 m=t.e
@@ -54056,7 +54056,7 @@ return P.a4(null,r)}})
 return P.a5($async$$1,r)},
 $S:333}
 V.mi.prototype={
-H:function(a,b){var s,r,q,p,o,n,m,l=this,k=null,j="dd-MM-yyyy HH:mm:ss",i=t.sD.a($.ck().c0("FlutterNotesHiveDB",!1,t.C)),h=i.e.f0().m1(0,new V.LT(l))
+H:function(a,b){var s,r,q,p,o,n,m,l=this,k=null,j="dd-MM-yyyy HH:mm:ss",i=t.sD.a($.ck().c0("Flutter Notes HiveDB",!1,t.C)),h=i.e.f0().m1(0,new V.LT(l))
 l.e.sew(0,h.e)
 i=l.f
 i.sew(0,h.f)
@@ -54080,7 +54080,7 @@ break
 case 2:a.e=q.e.a.a
 a.f=q.f.a.a
 a.r=new P.bA(Date.now(),!1)
-p=t.sD.a($.ck().c0("FlutterNotesHiveDB",!1,t.C))
+p=t.sD.a($.ck().c0("Flutter Notes HiveDB",!1,t.C))
 s=4
 return P.a0(p.dE(P.ao([q.c,a],t.z,p.$ti.j("co.E*"))),$async$tc)
 case 4:K.dC(b,!1).cT(0)
@@ -54093,7 +54093,7 @@ return P.a0(q.wb(a),$async$ne)
 case 4:s=c?2:3
 break
 case 2:s=5
-return P.a0(t.sD.a($.ck().c0("FlutterNotesHiveDB",!1,t.C)).FF([q.c]),$async$ne)
+return P.a0(t.sD.a($.ck().c0("Flutter Notes HiveDB",!1,t.C)).FF([q.c]),$async$ne)
 case 5:K.dC(a,!1).cT(0)
 case 3:return P.a4(null,r)}})
 return P.a5($async$ne,r)},
