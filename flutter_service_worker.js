@@ -8,11 +8,11 @@ const RESOURCES = {
 "assets/NOTICES": "29b8b3ba7fecf266335a1046d601fb6b",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
 "assets/AssetManifest.json": "99914b932bd37a50b983c5e7c90ae93b",
-"manifest.json": "1ea0614f579cd1e5a383769d60c0314b",
+"manifest.json": "17dc0d6aadb400495d18299ec927de05",
 "main.dart.js": "137c185eed806a2aec16182f1d13b897",
 "version.json": "b5d87d6a3fe6d969388d39d7372d7290",
-"index.html": "7e60bc3207c546a41d2b7eb1ef0d1507",
-"/": "7e60bc3207c546a41d2b7eb1ef0d1507",
+"index.html": "b159391d5176073e71067f3e77b976cd",
+"/": "b159391d5176073e71067f3e77b976cd",
 "icons/Icon-192.png": "eff13b0a6048abe0ea3b7cbddcd50929",
 "icons/Icon-512.png": "eff13b0a6048abe0ea3b7cbddcd50929"
 };
