@@ -1,11 +1,11 @@
 {
-    "name": "FlutterNotesHiveDB",
-    "short_name": "FlutterNotesHiveDB",
+    "name": "myweb",
+    "short_name": "myweb",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Flutter Notes Hive DB.",
+    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
